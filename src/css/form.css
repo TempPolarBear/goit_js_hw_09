@@ -1,0 +1,72 @@
+/* ===== Feedback Form ===== */
+
+.feedback-form {
+  width: 408px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+
+  transition: border-color 250ms ease;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border-color: #000;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border-color: #808080;
+}
+
+.feedback-form textarea {
+  resize: none;
+}
+
+.feedback-form button {
+  width: fit-content;
+  padding: 8px 16px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #4e75ff;
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition: background-color 250ms ease;
+}
+
+.feedback-form button:hover,
+.feedback-form button:focus {
+  background-color: #6c8cff;
+}
