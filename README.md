@@ -4,8 +4,8 @@ GoIT JavaScript course homework.
 
 ## Topics
 
-- Галерея изображений с модальным просмотром
-- Сохранение состояния формы обратной связи в `localStorage`
+- Image gallery with modal viewing
+- Persisting feedback-form state in `localStorage`
 
 ## Technologies
 
